@@ -12,11 +12,15 @@
 
 .web-option a{
     text-decoration: none;
-    color: black;
+    color: white;
     display: flex;
     align-items: center;
 }
 
+.web-option a:hover{
+    color: #682ae9
+}
+    
 .option-icon{
     display: flex;
     align-items: center;
@@ -25,4 +29,23 @@
 
 .web-option :last-child{
     margin-right: 0px;
+}
+
+@keyframes fadeOut {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }

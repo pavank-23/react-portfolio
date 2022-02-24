@@ -1,8 +1,11 @@
 body{
     padding: 12px;
 }
+
 html{
     scroll-behavior: smooth;
+    background-color: #0e1212;
+    color: white;
 }
 
 .home{

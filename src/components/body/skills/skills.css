@@ -1,0 +1,17 @@
+.skill-text{
+    padding: 12px;
+}
+.skill-images{
+    display: flex;
+    flex: 1;
+    padding: 8px 16px;
+    width: max-content;
+    height: 90px;
+}
+
+@media only screen and (max-width: 720px){
+    .skill-images{
+        width:max-content;
+        height: 60px;
+    }
+}
