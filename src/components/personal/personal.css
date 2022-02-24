@@ -1,0 +1,17 @@
+.info{
+    flex:1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin : 16px 0px;
+    padding: 8px 0px;
+}
+.personPic{
+    width: 40%;
+}
+
+@media only screen and (max-width: 720px){
+    .info{
+        flex-direction: column;
+    }
+}
