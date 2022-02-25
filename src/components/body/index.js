@@ -5,7 +5,6 @@ import Projects from './projects'
 import About from './about'
 import Personal from '../personal'
 import Skills from './skills'
-import ContactForm from './contact-form'
 
 function Body() {
   return (
