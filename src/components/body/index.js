@@ -5,6 +5,7 @@ import Projects from './projects'
 import About from './about'
 import Personal from '../personal'
 import Skills from './skills'
+import ContactForm from './contact-form'
 
 function Body() {
   return (
@@ -24,6 +25,7 @@ function Body() {
       <section id='contact'>
         <Contact />
       </section>
+
     </div>
   )
 }
